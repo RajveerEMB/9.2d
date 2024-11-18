@@ -1,0 +1,61 @@
+/*Signup.css*/
+.body {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 500px;
+  background-color: rgba(243, 229, 225, 0.495);
+  padding: 20px;
+  border: 1px solid #ddddddac;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(41, 41, 118);
+  margin-bottom: 20px;
+}
+
+.body form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.body label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.body input {
+  width: 70%;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.body button {
+  font-size: small;
+  width: 100px;
+  background-color: #4caf4ffb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.acc {
+  margin-left: 50px;
+}
